@@ -1,0 +1,49 @@
+@use 'variables'
+
+.services
+    display: flex
+    flex-direction: column
+    align-items: center
+    max-width: 100%
+    overflow-x: hidden
+    h1
+        font-size: 2.5rem
+        color: variables.$Preto
+        padding: 2rem 0
+        font-weight: 700
+        font-family: variables.$FontePrimaria
+        text-decoration: underline
+        text-underline-offset: 10px
+        text-decoration-color: variables.$RoseGold
+    .services-container
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        gap: 10px
+        li
+            padding: 1rem .5rem
+            left: -17px
+            width: 300px
+            min-height: fit-content
+            list-style: none
+            position: relative
+            text-align: center
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: space-around
+            border: 1px solid #ddd
+            h4
+                font-weight: 700
+                text-transform: uppercase
+                color: variables.$RoseGold
+            span
+                margin: .5rem 0
+            a
+                text-decoration: none
+                background-color: variables.$Cinza
+                padding: .6rem 1rem
+                color: variables.$Preto
+                border: 1px solid variables.$RoseGold
+                border-radius: 10px
+                width: fit-content
