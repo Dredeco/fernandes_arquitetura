@@ -5,6 +5,11 @@ import '@/styles/Navbar.sass'
 import '@/styles/Slider.sass'
 import '@/styles/FirstCTA.sass'
 import '@/styles/Services.sass'
+import '@/styles/About.sass'
+import '@/styles/Projects.sass'
+import '@/styles/SecondCTA.sass'
+import '@/styles/Contact.sass'
+import '@/styles/Footer.sass'
 
 export default function App({ Component, pageProps }) {
 

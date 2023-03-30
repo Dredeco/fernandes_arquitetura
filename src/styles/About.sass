@@ -1,0 +1,44 @@
+@use 'variables'
+
+.about
+    padding: 2rem 2%
+    background-color: rgba(variables.$RoseGold, .5)
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+        font-size: 2.5rem
+        color: variables.$Preto
+        padding: 2rem 0
+        font-weight: 700
+        font-family: variables.$FontePrimaria
+        text-decoration: underline
+        text-underline-offset: 10px
+        text-decoration-color: variables.$RoseGold
+    .about-container
+        max-width: 1280px
+        width: 100%
+        height: 100%
+        display: flex
+        flex-wrap: wrap
+        .img-section
+            display: flex
+            justify-content: center
+            width: 100%
+            height: 100%
+            padding: 1rem 0.5rem
+            img
+                max-height: 600px
+                border-radius: 20px
+        .about-section
+            display: flex
+            align-items: center
+            font-size: 1.5rem
+
+@media screen and (min-width: 992px)
+    .about
+        .about-container
+            .img-section
+                width: 50%
+            .about-section
+                width: 50%

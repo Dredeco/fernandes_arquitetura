@@ -4,6 +4,11 @@ import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
 import FirstCTA from '@/components/FirstCTA'
 import Services from '@/components/Services'
+import About from '@/components/About'
+import Projects from '@/components/Projects'
+import SecondCTA from '@/components/SecondCTA'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -17,11 +22,16 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Lato&display=swap" rel="stylesheet" />
       </Head>
-      <main className={styles.main}>
+      <main className='main'>
         <Navbar />
         <Slider />
         <FirstCTA />
         <Services />
+        <About />
+        <Projects />
+        <SecondCTA />
+        <Contact />
+        <Footer />
       </main>
     </>
   )
