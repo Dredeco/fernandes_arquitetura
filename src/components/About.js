@@ -1,6 +1,6 @@
 import Image from 'next/legacy/image'
 import React from 'react'
-import userImg from '../../public/images/userarq.jpg'
+import userImg from './../../public/images/userarq.jpg'
 
 export default function About() {
   return (

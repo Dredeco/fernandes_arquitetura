@@ -53,14 +53,14 @@ export default function Navbar() {
                 </Link>
 
                 <Link class="nav-link" 
-                href="/">Sobre
+                href="#about">Sobre
                 </Link>
 
                 <Link class="nav-link" 
-                href="/">Projetos</Link>
+                href="#projects">Projetos</Link>
 
                 <Link class="nav-link" 
-                href="/">Contato</Link>
+                href="#contact">Contato</Link>
             </div>
         </div>
     </div>
