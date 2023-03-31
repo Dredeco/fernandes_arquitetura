@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Link 
                 class="nav-link active"
                 aria-current="page"
-                href="/">Home
+                href="#">Home
                 </Link>
 
                 <Link class="nav-link" 
